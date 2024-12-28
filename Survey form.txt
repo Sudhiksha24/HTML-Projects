@@ -1,0 +1,52 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css"
+  
+  </head>
+  <body>
+    <center>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    </center>
+
+    <form id="survey-form">
+      <input required id="name" type="text" placeholder="Enter your name"></input>
+      <input required id="email" type="email" placeholder="Enter your email address"></input>
+      <input id="number" type="number" min="0" max="10" placeholder="Enter your phone number"></input>
+      <label id="name-label">name</label>
+      <label id="email-label">email</label>
+      <label id="number-label">number</label>
+
+      <select id="dropdown">
+        <option>Python</option>
+        <option>C</option>
+        <option>Java</option>
+      </select>
+
+      <input value="Male" name="Gender" type="radio">Male</input>
+      <input value="Female" name="Gender" type="radio">Female</input>
+
+      
+      <input value="Frontend" type="checkbox"></input>
+      <input value="Backend" type="checkbox"></input>
+      <input value="Fullstack" type="checkbox"></input>
+      
+      <textarea type="textarea"></textarea>
+
+      <input type="submit" id="submit"></input>
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
