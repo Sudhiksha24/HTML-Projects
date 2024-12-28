@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<style>
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+#navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+#projects {
+    padding: 2em;
+    background-color: #fff;
+}
+
+.project-tile {
+    margin-bottom: 1em;
+}
+
+@media (max-width: 600px) {
+    #navbar a {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
+
+</style>
+<body>
+    <nav id="navbar">
+        <a href="#welcome-section">Welcome</a>
+        <a href="#projects">Projects</a>
+        <a id="profile-link" href="https://github.com/your-profile" target="_blank">GitHub</a>
+    </nav>
+
+    <section id="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+    </section>
+
+    <section id="projects">
+        <div class="project-tile">
+            <a href="https://github.com/your-project-link" target="_blank">Project 1</a>
+        </div>
+        <!-- Add more project tiles as needed -->
+    </section>
+</body>
+</html>
+
